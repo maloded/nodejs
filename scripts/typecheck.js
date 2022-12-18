@@ -1,1 +1,1 @@
-console.log('type check...');
+console.log('type check and update...');
