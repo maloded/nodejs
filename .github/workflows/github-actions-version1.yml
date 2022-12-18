@@ -1,0 +1,27 @@
+name: GitHub Actions Version1
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ 16.x ]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Starting Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with: 
+          node-version: ${{ matrix.node-version }}
+      - name: install modules
+        run: npm install
+      - name: build storybook
+        run: npm run build:storybook
+      - name: e2e test
+        run: npm run test:e2e
+      - name: lint code
+        run: npm run lint
+      - name: i18n check
+        run: npm run i18n:check
+      - name: type check
+        run: npm run type:check
