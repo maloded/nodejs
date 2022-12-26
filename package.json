@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/maloded/nodejs#readme",
   "dependencies": {
-    "do": "^0.6.2"
+    "pg": "^8.8.0",
+    "ws": "^8.11.0"
   }
 }
