@@ -1,3 +1,35 @@
 2022-12-28T12:38:15	API on port 8001
 2022-12-28T12:39:17	API on port 8001
 2022-12-28T12:47:38	API on port 8001
+2022-12-28T16:04:49	API on port 8001
+2022-12-28T16:07:41	API on port 8001
+2022-12-28T16:07:48	::ffff:127.0.0.1 user.read(3)
+2022-12-28T16:08:01	::ffff:127.0.0.1 user.read(3)
+2022-12-28T16:09:06	::ffff:127.0.0.1 country.read(1)
+2022-12-28T16:09:06	{ db: [Function (anonymous)] }
+2022-12-28T16:10:54	::ffff:127.0.0.1 user.read(3)
+2022-12-28T20:45:27	Static on port 8000
+2022-12-28T20:45:27	API on port 8001
+2022-12-28T20:46:57	Static on port 8000
+2022-12-28T20:46:57	API on port 8001
+2022-12-28T20:53:08	Static on port 8000
+2022-12-28T20:53:08	API on port 8001
+2022-12-28T20:53:45	Static on port 8000
+2022-12-28T20:53:45	API on port 8001
+2022-12-28T20:53:48	::1 say /api/talks/say
+2022-12-28T20:53:48	{ message: [ 'hello partizany' ] }
+2022-12-28T20:55:17	Static on port 8000
+2022-12-28T20:55:17	API on port 8001
+2022-12-28T20:55:20	::1 talks.say("hello partizany")
+2022-12-28T20:55:20	{ message: 'hello partizany' }
+2022-12-28T20:58:02	Static on port 8000
+2022-12-28T20:58:02	API on port 8001
+2022-12-28T20:58:04	::1 talks.say("hello partizany")
+2022-12-28T20:58:04	{ message: 'hello partizany' }
+2022-12-28T21:00:02	Static on port 8000
+2022-12-28T21:00:03	API on port 8001
+2022-12-28T21:00:06	::1 user.read(3)
+2022-12-28T21:01:32	Static on port 8000
+2022-12-28T21:01:32	API on port 8001
+2022-12-28T21:01:41	::1 talks.say("hello partizany")
+2022-12-28T21:01:41	{ message: 'hello partizany' }
