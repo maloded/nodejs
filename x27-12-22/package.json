@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "curse",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:storybook": "node ./scripts/storybook.js",
+    "test:e2e": "node ./scripts/e2e.test.js",
+    "lint": "node ./scripts/eslint.js",
+    "type:check": "node ./scripts/typecheck.js",
+    "i18n:check": "node ./scripts/i18n-check.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maloded/nodejs.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "maloded",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maloded/nodejs/issues"
+  },
+  "homepage": "https://github.com/maloded/nodejs#readme",
+  "dependencies": {
+    "pg": "^8.8.0",
+    "ws": "^8.11.0"
+  }
+}
